@@ -1,2 +1,2 @@
 # DataStructuresPython
-Implementation of various data structures in Python
+Implementation of various data structures using Python
