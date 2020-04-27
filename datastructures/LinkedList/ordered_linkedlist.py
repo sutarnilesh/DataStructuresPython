@@ -1,6 +1,6 @@
 
-from LinkedList.unordered_linkedlist import Node
-#from .unordered_linkedlist import Node
+from datastructures.LinkedList.unordered_linkedlist import Node
+
 
 class OrderedList(object):
   def __init__(self):

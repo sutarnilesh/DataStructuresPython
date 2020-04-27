@@ -1,5 +1,5 @@
 
-from Searching.hashtable import HashTable
+from algorithms.Searching.hashtable import HashTable
 
 H=HashTable()
 H[54]="cat"

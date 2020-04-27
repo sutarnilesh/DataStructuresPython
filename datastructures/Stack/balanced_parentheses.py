@@ -3,14 +3,14 @@
 Balanced parentheses means that each opening/general symbol has a corresponding closing symbol and
 the pairs of parentheses are properly nested
 """
-from Stack.stack import Stack
+from datastructures.Stack.stack import Stack
 
 def parChecker(symbolString):
   s = Stack()
   balanced = True
   index = 0
-  l = len(symbolString)
-  while index < l and balanced:
+  length = len(symbolString)
+  while index < length and balanced:
       symbol = symbolString[index]
       if symbol in '([{':
         s.push(symbol)

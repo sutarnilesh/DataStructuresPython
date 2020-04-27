@@ -6,7 +6,7 @@ If the item we are searching for is greater than the middle item, we know that t
 of the list as well as the middle item can be eliminated from further consideration.
 The item, if it is in the list, must be in the upper half.
 
-The number of comparisons necessary to get to this point is i where n2i=1. Solving for i gives us i=logn
+The number of comparisons necessary to get to this point is i where n/2^i=1. Solving for i gives us i=logn
 The binary search is O(logn )
 """
 

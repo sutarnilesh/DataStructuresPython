@@ -1,4 +1,5 @@
-from Queue.deque import Deque
+from datastructures.Queue.deque import Deque
+
 
 def palinchecker(aString):
   chardeque = Deque()

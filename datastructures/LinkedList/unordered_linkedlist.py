@@ -44,7 +44,7 @@ class UnorderedList(object):
   def size(self):
     count = 0
     current = self.head
-    while not current is None:
+    while current is not None:
       count += 1
       current = current.getNext()
 
@@ -53,7 +53,7 @@ class UnorderedList(object):
   def search(self, item):
     current = self.head
     found = False
-    while (not current is None) and (not found):
+    while (current is not None) and (not found):
       if current.getData() is item:
         found = True
       current = current.getNext()

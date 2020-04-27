@@ -1,5 +1,5 @@
 
-from Stack.stack import Stack
+from datastructures.Stack.stack import Stack
 
 s=Stack()
 

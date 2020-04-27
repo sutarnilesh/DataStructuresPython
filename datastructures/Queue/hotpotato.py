@@ -1,5 +1,5 @@
 
-from Queue.queue import Queue
+from datastructures.Queue.queue import Queue
 
 
 def hotPotato(namelist, num):
